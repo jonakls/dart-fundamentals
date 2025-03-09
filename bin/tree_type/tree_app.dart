@@ -4,7 +4,7 @@ import 'tree_controller.dart';
 
 void main() {
   print('-====[ Árbol binario ]====-');
-  final TreeController treeController = TreeController<int>(0);
+  final TreeController treeController = TreeController<num>(1);
   int option = 0;
 
   while (option != 5) {

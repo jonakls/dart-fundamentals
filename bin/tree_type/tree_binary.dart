@@ -1,5 +1,5 @@
 /// Clase que representa un árbol binario
-class TreeBinary<T> {
+class TreeBinary<T extends Comparable<T>> {
   T? _value;
   TreeBinary<T>? left;
   TreeBinary<T>? right;
